@@ -5,11 +5,12 @@ public class ExerciseCharSequence implements CharSequence {
 
     @Override
     public int length() {return text.length();}
+
     String viceVersa = "";
 
     @Override
     public char charAt(int index) {
-        for (int i = 0; i < length(); i++) {
+        for (int i = 0; i < length(); i++) { // Почему он начинает с последнего?
             viceVersa = text.charAt(i) + viceVersa;
         }
         return 0;
