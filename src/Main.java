@@ -6,7 +6,7 @@ public class Main {
         System.out.println(exerciseCharSequence.getText());
         System.out.println("Колличество символов: " + exerciseCharSequence.length());
         System.out.println(exerciseCharSequence.subSequence(0,5));
-        exerciseCharSequence.charAt(exerciseCharSequence.length());
+        System.out.println("символ в позиции 11: " + exerciseCharSequence.charAt(4));
         System.out.println(exerciseCharSequence);
     }
 }
